@@ -29,7 +29,7 @@ const Home = () => {
                         Initialize
                     </button>
                 )}
-                {/* <WalletMultiButton /> */}
+                <WalletMultiButton />
             </div>
 
             <div className={styles.mainContainer}>
@@ -43,7 +43,7 @@ const Home = () => {
 
 
 
-                    
+
                     <TodoSection title="Tasks" todos={incompleteTodos} action={markStaticTodo} />
 
                     <TodoSection title="Completed" todos={completedTodos} action={removeStaticTodo} />
